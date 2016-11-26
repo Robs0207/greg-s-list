@@ -1,0 +1,105 @@
+body {
+	margin: 0;  
+	font-family: "Roboto", sans-serif;
+}
+
+/*  top navigation bar */
+header {
+	background-color: #E8E5DF;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	margin-bottom: 130px;
+}
+
+.gl-logo{
+	display: inline-block;
+	left: 20px;
+	position: absolute;	
+	font-size: 10px;
+}
+
+
+.nav-links{
+	position: absolute;	
+	right: 20px;
+	top: 10px;
+	font-size: 20px;
+}
+
+.link{
+	color: purple;
+	font-size: 20px;
+	padding: 0 6px;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* search section */
+.search-section {
+	position: relative;
+	top: 90px;
+	left: 50px;
+	margin-bottom: 70px;
+}
+
+.search-section input {
+	font-family: "Roboto", sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	height: 30px;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	padding: 0 5px 0 8px;
+	width: 400px;
+}
+
+.search-section img {
+	height: 100%;
+}
+
+/* listings navigation bar */
+.search-section button {
+	font-size: 17px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+}
+
+.nav-listings {
+	position: relative;
+	top: 60px;
+	left: 50px;
+	margin-bottom: 30px;
+}
+
+.nav-button {
+	font-size: 17px;
+	height: 40px;
+	background-color: white;
+	border: 1px solid #DDDDDD;
+	border-radius: 3px;
+	padding: 8px 15px;
+}
+
+/* main */
+.job-positions{
+	position: relative;
+	top: 60px;
+	left: 10px;
+	margin-bottom: 30px;
+	list-style: none;
+}
+
+.greyed-out{
+	color: #999;
+}
+
+.role {
+	margin-left: 8px;
+	margin-right: 8px;
+	font-weight: bold;
+}

@@ -1,0 +1,65 @@
+  <!DOCTYPE html>
+  <html>
+  <head>
+
+  	<title>Greg's List</title>
+  	<meta charset="utf-8" name="description" content="gregslist provides local classifieds and forums for jobs, housing, for sale, personals, services, local community, and events">
+
+    <!-- fonts  -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- reset 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.min.css"> -->
+
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+  </head> 
+
+  <body>
+
+    <!-- header with logo and navigation to post and account links -->
+    <header>
+      <div class="gl-logo">
+        <h1>Greg's List</h1>
+      </div>
+      <nav class="nav-links">
+        <a href="Post.html" class="link">Post</a>
+        <a href="Account.html" class="link">Account</a>
+      </nav>
+    </header>
+
+    <!-- search job listings -->
+    <section class="search-section">
+      <!-- search field -->
+      <form action="/some-server-endpoint">
+        <input type="text" id="search-field" placeholder="Search software jobs"/>
+        <button type="submit" class="search-button">
+        <img src="images/magnifying-glass.png"></button>
+      </form>
+    </section>
+
+      <!-- navigation bar to scroll through job listings -->
+    <nav class="nav-listings">
+      <a class="nav-button">&lt; prev</a><span class="nav-button">1 to 100 of 179</span><a class="nav-button">next &gt;</a>
+    </nav>
+
+    <main>
+
+      <!-- job positions returned -->
+      <ul class="job-positions">
+        <li class="job">
+          <span class="greyed-out">June 22</span><a href=# class="role">Technical Project Manager</a></span><span class="greyed-out">Midtown East</span>
+        </li>
+        <li class="job">
+          <span class="greyed-out">June 21</span><a href=# class="role">Frontend Developer</a><span class="greyed-out">Soho</span>
+        </li>
+        <li class="job">
+          <span class="greyed-out">June 20</span><a href=# class="role">Senior Python Developer / Cofounder</a></span><span class="greyed-out">Flatiron</span>
+        </li>
+      </ul>
+
+    </main>
+
+  </body>
+</html>
